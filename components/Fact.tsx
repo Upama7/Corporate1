@@ -30,6 +30,7 @@ function Fact() {
       <div className="container mx-auto xl:w-[1100px] p-6 md:p-0">
         <h6 className="text-[#a7b2c3] text-center md:text-left pb-2">Fact</h6>
         <div className=" flex flex-col md:flex-row gap-10">
+          {/* side text  */}
           <div className="basis-[30%]">
             <div className="flex flex-col md:flex-row items-center ">
               <h2 className="text-[25px] md:text-[40px]  font-bold leading-10 text-center md:text-left">
@@ -39,6 +40,7 @@ function Fact() {
             </div>
           </div>
 
+          {/* slider section  */}
           <div className="flex flex-col md:flex-row items-center justify-center basis-[70%] gap-10">
             {fact.map((s, index) => (
               <div
