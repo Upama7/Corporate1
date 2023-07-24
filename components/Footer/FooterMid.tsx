@@ -38,7 +38,7 @@ function FooterMid() {
   return (
     <div className="bg-[#16697A] text-white  p-16  md:px-0">
       {/* company legal features resources div  */}
-      <div className="container mx-auto xl:max-w-[1100px] flex flex-col md:flex-row md:justify-between leading-6 gap-8">
+      <div className="max-w-[1100px] mx-auto  flex flex-col md:flex-row md:justify-between leading-6 gap-8">
         {footer.map(({ h1, f, s, t, l }, index) => (
           <div key={index} className="flex flex-col items-start gap-3 md:gap-5">
             <h5 className="text-[16px] font-bold leading-6">{h1}</h5>

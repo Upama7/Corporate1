@@ -32,7 +32,7 @@ function FAQ() {
 
   return (
     <div className=" bg-[#F3F3F3] ">
-      <div className="container mx-auto xl:max-w-[1100px] flex flex-col gap-20 pb-20 px-6 md:px-0 ">
+      <div className="max-w-[1100px] mx-auto  flex flex-col gap-20 pb-20 px-6 md:px-0 ">
         {/* header and paragraph  */}
         <div className="text-center">
           <h2 className="md:text-[40px] text-[21px] font-semibold leading-[57px]">
@@ -48,13 +48,10 @@ function FAQ() {
 
         {/* toogle div about faq  */}
         <div className="flex flex-col md:flex-row gap-4">
-          <img
-            src="../Assets/faq.jpg"
-            alt=""
-            className="flex-1 max-w-[540px]"
-          />
-
-          <div className="flex flex-col gap-4">
+          <div className="flex-1 ">
+            <img src="../Assets/faq.jpg" alt="" />
+          </div>
+          <div className="flex flex-col gap-4 flex-1">
             {faq.map(({ name, p }, index) => (
               <div
                 key={index}

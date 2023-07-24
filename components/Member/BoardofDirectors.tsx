@@ -1,6 +1,6 @@
 import React from "react";
 
-function BoardofDirectors() {
+const BoardofDirectors = () => {
   const member = [
     {
       src: "member",
@@ -13,6 +13,7 @@ function BoardofDirectors() {
       position: "Director",
     },
   ];
+
   return (
     <div className="flex flex-col md:flex-row flex-wrap items-center gap-4 text-center">
       {member.map(({ src, name, position }, index) => (
@@ -29,6 +30,6 @@ function BoardofDirectors() {
       ))}
     </div>
   );
-}
+};
 
 export default BoardofDirectors;

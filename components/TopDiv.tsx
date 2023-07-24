@@ -5,8 +5,8 @@ import Offer from "./Offer";
 // top div of the page
 function TopDiv() {
   return (
-    <div className="container mx-auto xl:max-w-[1100px] ">
-      <div className="md:w-[1100px] flex flex-col gap-12 absolute top-0 md:top-0 px-6 md:px-0">
+    <div className="container mx-auto  ">
+      <div className=" flex flex-col gap-12  top-0 md:top-0 px-6 md:px-0">
         {/* navbar export from child component  */}
         <Navbar />
         <div className="flex flex-col gap-10 mt-24">

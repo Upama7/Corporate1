@@ -5,7 +5,7 @@ import CardT from "./CardT";
 function Touch() {
   return (
     <div className="bg-[#F3F3F3] py-16">
-      <div className="container mx-auto xl:max-w-[990px] flex flex-col justify-center  items-center gap-16 text-center pb-20">
+      <div className="max-w-[1100px] mx-auto  flex flex-col justify-center  items-center gap-16 text-center pb-20">
         <div className="flex flex-col gap-3 px-12">
           <h2 className="text-[40px]  font-semibold leading-[57px]">
             Get In Touch

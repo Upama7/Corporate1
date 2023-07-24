@@ -3,7 +3,7 @@ import { TbSignature } from "react-icons/tb";
 
 function Success() {
   return (
-    <div className="container mx-auto xl:max-w-[1100px] py-20">
+    <div className="max-w-[1100px] mx-auto  md:py-10">
       <div className="flex flex-col md:flex-row justify-between items-center gap-16">
         {/* video  */}
         {/* web video  */}

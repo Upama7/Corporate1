@@ -5,7 +5,7 @@ import Card from "./Card";
 function TDiv() {
   return (
     <>
-      <div className="container mx-auto xl:max-w-[1100px] text-center flex flex-col gap-10  p-16 md:px-0">
+      <div className="max-w-[1100px] mx-auto text-center flex flex-col gap-10  p-16 md:px-0">
         <div className="flex flex-col gap-3">
           <h2 className="text-[40px] font-bold leading-[57px]">
             Practice Advice

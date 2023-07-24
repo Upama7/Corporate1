@@ -1,21 +1,20 @@
 "use client";
 
-// member section
-import React, { memo, useState } from "react";
-import { RiShieldFlashLine } from "react-icons/ri";
+import React, { useState } from "react";
 import BoardofDirectors from "./BoardofDirectors";
-
 import ManagementTeam from "./ManagementTeam";
-import SepartmentHead from "./SepartmentHead";
+import DepartmentHead from "./DepartmentHead";
+import { RiShieldFlashLine } from "react-icons/ri";
 
-function Member() {
+const Member = () => {
   const [activeTab, setActiveTab] = useState("boardOfDirectors");
 
   const handleTabChange = (tabName: any) => {
     setActiveTab(tabName);
   };
+
   return (
-    <div className="container mx-auto xl:w-[1100px] ">
+    <div className="max-w-[1100px] mx-auto ">
       <div className="flex flex-col justify-center items-center gap-4 py-4">
         <RiShieldFlashLine color="#0e9e49" size="50px" />
         <h3 className="text-[24px] font-bold leading-8">Our Team</h3>
@@ -58,9 +57,9 @@ function Member() {
 
       {activeTab === "boardOfDirectors" && <BoardofDirectors />}
       {activeTab === "managementTeam" && <ManagementTeam />}
-      {activeTab === "departmentHeads" && <SepartmentHead />}
+      {activeTab === "departmentHeads" && <DepartmentHead />}
     </div>
   );
-}
+};
 
 export default Member;

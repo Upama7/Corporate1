@@ -6,11 +6,8 @@ import Subscribe from "./Subscribe";
 function Company() {
   return (
     <div className=" flex flex-col gap-20 relative">
-      <div className=" container mx-auto xl:max-w-[984px]">
-        <Image />
-        <Subscribe />
-      </div>
-      <div className="h-[77px] bg-[#252B42] hidden md:block"></div>
+      <Image />
+      <Subscribe />
     </div>
   );
 }

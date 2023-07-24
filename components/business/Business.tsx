@@ -4,7 +4,7 @@ import React from "react";
 function Business() {
   return (
     <div className=" bg-white ">
-      <div className="container mx-auto xl:max-w-[1100px] flex flex-col  gap-20 py-20 p-6 md:px-0">
+      <div className="container mx-auto flex flex-col  gap-20 py-20 p-6 md:px-0">
         {/* header and paragraph */}
         <div className="flex flex-col gap-4">
           <h2 className="text-[40px] text-center font-bold leading-[57px]">

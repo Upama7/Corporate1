@@ -1,7 +1,6 @@
 import React from "react";
 
-// eepartment head of membbers
-function SepartmentHead() {
+const DepartmentHead = () => {
   const member = [
     {
       src: "member",
@@ -61,6 +60,6 @@ function SepartmentHead() {
       ))}
     </div>
   );
-}
+};
 
-export default SepartmentHead;
+export default DepartmentHead;

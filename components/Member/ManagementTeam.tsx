@@ -1,7 +1,6 @@
 import React from "react";
 
-// management team for member
-function ManagementTeam() {
+const ManagementTeam = () => {
   const member = [
     {
       src: "member",
@@ -29,6 +28,7 @@ function ManagementTeam() {
       position: "Advisor-Operation & Inventory Management ",
     },
   ];
+
   return (
     <div className="flex flex-col md:flex-row flex-wrap items-center gap-4 text-center">
       {member.map(({ src, name, position }, index) => (
@@ -45,6 +45,6 @@ function ManagementTeam() {
       ))}
     </div>
   );
-}
+};
 
 export default ManagementTeam;

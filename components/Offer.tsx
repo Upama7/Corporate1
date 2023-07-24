@@ -24,7 +24,7 @@ function Offer() {
   ];
 
   return (
-    <div className="flex flex-col md:flex-row   md:justify-between items-center gap-8 ">
+    <div className="flex flex-col md:flex-row   md:justify-between items-center gap-8">
       {icons.map((item, index) => (
         <div
           key={index}
