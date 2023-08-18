@@ -69,7 +69,7 @@ function Image() {
       <div className="max-w-[500px] md:max-w-[1100px] mx-auto text-5xl text-[#737373] py-4 ">
         <Slider {...settings} className=" flex items-center">
           {image.map((i, index) => (
-            <div>{i}</div>
+            <div key={index}>{i}</div>
           ))}
         </Slider>
       </div>
